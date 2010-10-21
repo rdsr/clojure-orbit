@@ -1,0 +1,27 @@
+# clojure-orbit
+
+Uncle Bob's Simple Orbital Simulator written in Clojure.
+Strived to make the code a little more idiomatic clojure,
+learned a lot in the process, and hopefully didn't
+introduce any bugs,
+
+The original code can be found at http://github.com/unclebob/clojureOrbit
+
+
+# Usage
+
+1. with leiningen
+   lein deps
+   lein repl
+
+OR
+
+2. java -jar clojure-orbit-1.0-standalone.jar
+
+
+Commands available while running the GUI
+  q Quit
+  + zoom in
+  - zoom out
+  t toggle trails
+  <space>  Center the sun.
