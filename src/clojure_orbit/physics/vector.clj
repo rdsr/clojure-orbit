@@ -7,10 +7,10 @@
 
 (def zero-vector coordinates/origin)
 
-(def zero-mag? coordinates/origin?)
-
 (defn magnitude [v]
   (coordinates/distance coordinates/origin v))
+
+(defn zero-mag? [v] (= 0 (magnitude v)))
 
 (defn unit [v]
   (coordinates/scale v (/ 1 (magnitude v))))
